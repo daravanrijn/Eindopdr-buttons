@@ -1,0 +1,67 @@
+body{
+    background-color: #F8DCA1;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+img{
+    width: 40%;
+}
+
+.afbeeldingen{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+/* Stijl voor XP-balken
+.xp-balk {
+    width: 200px; 
+    height: 20px;
+    background-color: #ddd; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
+
+.xp-bar {
+    height: 100%; 
+    background-color: #4caf50; 
+    border-radius: 10px; 
+}
+
+
+.xp-text {
+    text-align: center; 
+    line-height: 20px;
+    color: white; 
+} */
+
+.xp-container {
+    display: flex; /* Gebruik flexbox-layout */
+    justify-content: center; /* Centreer de elementen horizontaal */
+    align-items: center; /* Centreer de elementen verticaal */
+    flex-direction: column; /* Plaats de elementen in een kolom */
+    margin-top: 20px; /* Ruimte boven de XP-balken */
+}
+
+/* Stijl voor XP-balken */
+.xp-balk {
+    width: 200px; /* Breedte van de balk */
+    height: 20px; /* Hoogte van de balk */
+    background-color: #ddd; /* Achtergrondkleur van de balk */
+    border-radius: 10px; /* Afgeronde hoeken van de balk */
+    margin-bottom: 10px; /* Ruimte onder de balk */
+}
+
+.xp-bar {
+    height: 100%; /* Hoogte van de XP-balken (relatief aan de ouder) */
+    background-color: #4caf50; /* Kleur van de XP-balken */
+    border-radius: 10px; /* Afgeronde hoeken van de XP-balken */
+}
+
